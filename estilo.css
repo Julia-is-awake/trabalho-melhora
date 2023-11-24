@@ -241,9 +241,13 @@ footer {
   transition: all 0.3s;
 }
 
-.redes-sociais-footer p{
-  font-size: 1.4rem;
+.titulo{
+  font-size: 1.9ch;
+  font-weight: 600;
+}
 
+.rede{
+  cursor: pointer;
 }
 
 
@@ -293,6 +297,7 @@ footer {
     width: calc(640px*0.7);
     height: calc(426px*0.7);
   }
+
 }
 
 @media only screen and (max-width: 800px){
@@ -301,4 +306,5 @@ footer {
     flex-direction:column;
   }
   
+
 }
